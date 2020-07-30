@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Justinmind Prototyper 8.7.0
+Exec=env WINEPREFIX="/home/jumacasni/.wine" wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/jumacasni/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/Justinmind/Justinmind\\ Prototyper\\ 8.7.0/Justinmind\\ Prototyper\\ 8.7.0.lnk
+Type=Application
+StartupNotify=true
+Path=/home/jumacasni/.wine/dosdevices/c:/Program Files (x86)/Justinmind/Justinmind Prototyper 8.7.0
+Icon=D688_JustinmindPrototyper.0
+StartupWMClass=justinmindprototyper.exe

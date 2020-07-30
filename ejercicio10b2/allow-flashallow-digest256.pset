@@ -1,0 +1,616 @@
+[0.000s]8 talk.media.webrtc.Extension: Sending message {"method":"cpu.getInfo"}
+[0.098s]8 realtime.media.api.webrtc.LoggingManager: Logging manager initialized with userId=jumacasni@gmail.com
+[0.099s]8 realtime.media.api.webrtc.LoggingManager: Requesting native WebRTC logging
+[0.100s]8 talk.media.webrtc.Extension: Sending message {"method":"logging.start"}
+[0.110s]8 realtime.media.api.webrtc.LoggingManager: Native WebRTC logging started
+[0.162s]8 realtime.media.capture.device.Collection: Initializing Camera collection. Selected device is Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isPreferred=false)
+[0.162s]8 realtime.media.capture.device.Collection: Initializing Microphone collection. Selected device is Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isPreferred=false)
+[0.162s]8 realtime.media.capture.device.Collection: Initializing Speaker collection. Selected device is Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isPreferred=false)
+[0.162s]8 realtime.media.capture.device.Collection: Choosing Speaker Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isPreferred=false) for media request.
+[0.164s]8 realtime.media.capture.device.Collection: Choosing Camera Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isPreferred=false) for media request.
+[0.170s]8 realtime.media.session.SessionManager: Updating default options to: {"useAudio":true,"useVideo":true,"useData":true,"useVideoRtx":true,"useAudioUplinkNack":false,"dumpRtpHeaders":false,"allowEarlyMedia":true,"earlyMediaHangoutId":"mfFx5eclm5TSo5_cDT8pAEEI","defaultRequests":[],"useStandardIce":true,"debugLogUploadAllowed":false,"debugLogUploadForced":false,"clientResource":"elaneEAC3985E","useCallPerf":false,"useSimulcast":true,"allowSimulcastOnScreencast":false,"useP2P":false,"useTURN":false,"startMuted":true,"useDtls":true,"useConferenceMode":true,"Dscp":"off","useVirtualAudioSSRCs":true,"allowH264":false,"allowVp9":false,"sendVp9":false,"forceVp9":false,"useAdaptiveLayering_":false,"useWebrtcCpuAdaptation":true,"useBackendLoudestSpeaker":true,"bandwidthConstraints":null,"jmiUploadIntervalMs":10000,"shouldHistogramData":false,"allowOnlyRequestedVideo":false,"isTestCall":false,"forceUnifiedPlan":false,"audioJitterBufferMaxPackets":null,"audioJitterBufferFastAccelerate":false,"audioJitterBufferMinDelayMs":null,"enableAdaptationReasonClientRequestFps":false,"disableDtlsForP2P":false,"audioProcessorConfig":null,"screencastMinBitrate":null,"audioLevelMode":0}
+[0.171s]8 realtime.media.audio.EchoDetector: EchoDetector constructor
+[0.178s]8 realtime.media.api.webrtc.AudioMonitor: Registering peer controller=PeerController(sessionId=c11138371541051320789_NMS).
+[0.179s]8 realtime.media.api.apiary.RemoteSession: Creating a new remote session with earlyMediaHangoutId=mfFx5eclm5TSo5_cDT8pAEEI P2P=false useAudio=true useVideo=true
+[0.179s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Creating a new session with
+     options={"useAudio":true,"useVideo":true,"useData":true,"useVideoRtx":true,"useAudioUplinkNack":false,"dumpRtpHeaders":false,"allowEarlyMedia":true,"earlyMediaHangoutId":"mfFx5eclm5TSo5_cDT8pAEEI","defaultRequests":[],"useStandardIce":true,"debugLogUploadAllowed":false,"debugLogUploadForced":false,"clientResource":"elaneEAC3985E","useCallPerf":false,"useSimulcast":true,"allowSimulcastOnScreencast":false,"useP2P":false,"useTURN":false,"startMuted":true,"useDtls":true,"useConferenceMode":true,"Dscp":"off","useVirtualAudioSSRCs":true,"allowH264":false,"allowVp9":false,"sendVp9":false,"forceVp9":false,"useAdaptiveLayering_":false,"useWebrtcCpuAdaptation":true,"useBackendLoudestSpeaker":true,"bandwidthConstraints":{"G":-1,"H":-1,"Y":-1},"jmiUploadIntervalMs":10000,"shouldHistogramData":false,"allowOnlyRequestedVideo":false,"isTestCall":false,"forceUnifiedPlan":false,"audioJitterBufferMaxPackets":null,"audioJitterBufferFastAccelerate":false,"audioJitterBufferMinDelayMs":null,"enableAdaptationReasonClientRequestFps":false,"disableDtlsForP2P":false,"audioProcessorConfig":null,"screencastMinBitrate":null,"audioLevelMode":0}.
+[0.180s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Now has these participants: []
+[0.182s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: send initiate.
+[0.182s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Instantiating new peer
+[0.182s]8 realtime.media.api.webrtc.PeerConnection: Creating new PeerConnection with config={"iceServers":[{"urls":["stun:stun.l.google.com:19302","stun:stun1.l.google.com:19302","stun:stun2.l.google.com:19302","stun:stun3.l.google.com:19302","stun:stun4.l.google.com:19302"]}],"bundlePolicy":"max-bundle","sdpSemantics":"plan-b"} constraints={"mandatory":{"RtpDataChannels":false,"DtlsSrtpKeyAgreement":true},"optional":[{"googHighStartBitrate":true},{"googHighBitrate":true},{"googPayloadPadding":true},{"googSkipEncodingUnusedStreams":true},{"googScreencastMinBitrate":400},{"googVeryHighBitrate":true},{"googCpuOveruseDetection":true},{"googCpuOveruseEncodeUsage":true},{"googCpuUnderuseThreshold":55},{"googCpuOveruseThreshold":85}]}
+[0.184s]8 realtime.media.api.webrtc.PeerNegotiator: Creating initial offer.
+[0.185s]8 realtime.media.api.webrtc.PeerNegotiator: Creating a local offer (isIceRestart=false).
+[0.185s]8 realtime.media.session.SessionManager: SessionManager changed state from INITIAL to STARTING
+[0.187s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=) muted=false paused=false deviceState=nr stream=null)] Starting media.
+[0.188s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Return empty user media constraints with null deviceId.
+[0.188s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Skipping update usermedia with empty constraints.
+[0.193s]8 talk.media.webrtc.Extension: Opening port named processCpu
+[0.194s]8 realtime.media.audio.service.AudioVolumeService: Use backend loudest info.
+[0.196s]8 boq.hangoutsexpresslaneui.model.CallModel: Start source: undefined
+[0.196s]8 realtime.media.session.SessionManager: Adding capture: {"config":null,"muted":false,"state":"El dispositivo está preparado"}
+[0.196s]8 realtime.media.session.SessionManager: Updating default options to: {"useAudio":true,"useVideo":true,"useData":true,"useVideoRtx":true,"useAudioUplinkNack":false,"dumpRtpHeaders":false,"allowEarlyMedia":true,"earlyMediaHangoutId":"mfFx5eclm5TSo5_cDT8pAEEI","defaultRequests":[],"useStandardIce":true,"debugLogUploadAllowed":false,"debugLogUploadForced":false,"clientResource":"elaneEAC3985E","useCallPerf":false,"useSimulcast":true,"allowSimulcastOnScreencast":false,"useP2P":false,"useTURN":true,"startMuted":true,"useDtls":true,"useConferenceMode":true,"Dscp":"off","useVirtualAudioSSRCs":true,"allowH264":false,"allowVp9":false,"sendVp9":false,"forceVp9":false,"useAdaptiveLayering_":false,"useWebrtcCpuAdaptation":true,"useBackendLoudestSpeaker":true,"bandwidthConstraints":null,"jmiUploadIntervalMs":10000,"shouldHistogramData":false,"allowOnlyRequestedVideo":false,"isTestCall":false,"forceUnifiedPlan":false,"audioJitterBufferMaxPackets":null,"audioJitterBufferFastAccelerate":false,"audioJitterBufferMinDelayMs":null,"enableAdaptationReasonClientRequestFps":false,"disableDtlsForP2P":false,"audioProcessorConfig":null,"screencastMinBitrate":null,"audioLevelMode":0}
+[0.196s]8 realtime.media.session.SessionManager: Updating default options to: {"useAudio":true,"useVideo":true,"useData":true,"useVideoRtx":true,"useAudioUplinkNack":false,"dumpRtpHeaders":false,"allowEarlyMedia":true,"earlyMediaHangoutId":"mfFx5eclm5TSo5_cDT8pAEEI","defaultRequests":[],"useStandardIce":true,"debugLogUploadAllowed":false,"debugLogUploadForced":false,"clientResource":"elaneEAC3985E","useCallPerf":false,"useSimulcast":true,"allowSimulcastOnScreencast":false,"useP2P":true,"useTURN":true,"startMuted":true,"useDtls":true,"useConferenceMode":true,"Dscp":"off","useVirtualAudioSSRCs":true,"allowH264":false,"allowVp9":false,"sendVp9":false,"forceVp9":false,"useAdaptiveLayering_":false,"useWebrtcCpuAdaptation":true,"useBackendLoudestSpeaker":true,"bandwidthConstraints":null,"jmiUploadIntervalMs":10000,"shouldHistogramData":false,"allowOnlyRequestedVideo":false,"isTestCall":false,"forceUnifiedPlan":false,"audioJitterBufferMaxPackets":null,"audioJitterBufferFastAccelerate":false,"audioJitterBufferMinDelayMs":null,"enableAdaptationReasonClientRequestFps":false,"disableDtlsForP2P":true,"audioProcessorConfig":null,"screencastMinBitrate":null,"audioLevelMode":0}
+[0.196s]8 boq.hangoutsexpresslaneui.model.CallModel: participant_log_id: elane_EMYmyp9NNS1
+[0.210s]8 realtime.media.session.SessionManager: isP2pEnabledResolver resolved, requesting ICE/TURN credentials.
+[0.218s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=nr stream=null)] Setting device to deviceId=null.
+[0.218s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=nd stream=null)] Update source state from li to mu
+[0.218s]8 realtime.media.api.webrtc.Capture: Changing media mute for Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=false paused=false deviceState=nd stream=null), setting track.enabled=false
+[0.218s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Skipping update usermedia while device in state=nd.
+[0.218s]8 realtime.media.capture.device.Collection: Choosing Microphone Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isPreferred=false) for media request.
+[0.218s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Starting media.
+[0.219s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=) muted=false paused=false deviceState=re stream=null)] Update source state from mu to li
+[0.219s]8 realtime.media.api.webrtc.Capture: Changing media mute for Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null), setting track.enabled=true
+[0.219s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Return empty user media constraints with null deviceId.
+[0.219s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Skipping update usermedia with empty constraints.
+[0.219s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Return empty user media constraints with null deviceId.
+[0.219s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Skipping update usermedia with empty constraints.
+[0.219s]8 realtime.media.api.webrtc.AudioMonitor: Registering audio capture=Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null).
+[0.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=nr stream=null)] Setting device to deviceId=null.
+[0.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=nd stream=null)] Update source state from li to mu
+[0.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Skipping update usermedia while device in state=nd.
+[0.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Setting device to deviceId=null.
+[0.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Skipping update usermedia while device in state=nd.
+[0.222s]8 realtime.media.api.webrtc.CaptureManager: Setting video in to device with id=null
+[0.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Starting media.
+[0.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=re stream=null)] Update source state from mu to li
+[0.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Return empty user media constraints with null deviceId.
+[0.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Skipping update usermedia with empty constraints.
+[0.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Return empty user media constraints with null deviceId.
+[0.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Skipping update usermedia with empty constraints.
+[0.223s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Setting mute state to mute=false.
+[0.223s]8 realtime.media.api.webrtc.Capture: Changing media mute for Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null), setting track.enabled=true
+[0.223s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Return empty user media constraints with null deviceId.
+[0.223s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Skipping update usermedia with empty constraints.
+[0.224s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Setting mute state to mute=false.
+[0.224s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Return empty user media constraints with null deviceId.
+[0.224s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Skipping update usermedia with empty constraints.
+[0.224s]8 realtime.media.session.SessionManager: Adding capture: {"config":null,"muted":false,"state":"El dispositivo está preparado"}
+[0.225s]8 realtime.media.session.SessionManager: Adding capture: {"config":null,"muted":false,"state":"El dispositivo está preparado"}
+[0.226s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Registering sessionId=default-settings-session-id.
+[0.233s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Local session default-settings-session-id not found for participant 
+[0.237s]8 realtime.media.capture.device.Collection: Persistently selected Microphone has returned, switching from Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isPreferred=false) to Device(id=default, displayName=Predeterminado - Audio Interno Estéreo Analógico, groupId=51a39a56ee5f97926c1f11a79862816d6788909a2da96526a77a686b4cab0778, fullName=, isPreferred=false)
+[0.237s]8 realtime.media.capture.device.Collection: Choosing Microphone Device(id=default, displayName=Predeterminado - Audio Interno Estéreo Analógico, groupId=51a39a56ee5f97926c1f11a79862816d6788909a2da96526a77a686b4cab0778, fullName=, isPreferred=false) for media request.
+[0.238s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Setting device to deviceId=default.
+[0.238s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Attempting update usermedia with id=0 settings=AudioSettings(base=MediaSettings(deviceId=default,deviceLabel=Predeterminado - Audio Interno Estéreo Analógico,groupId=51a39a56ee5f97926c1f11a79862816d6788909a2da96526a77a686b4cab0778), config=AudioConfig(deviceId=null, updateDeviceId=true, useAecDelayCorrection=true, useInternalAgc=true, useDucking=false, useAec=true, useAgc=true, useNoiseSuppression=true, useHighpassFilter=true, useMirroring=true, useTransisentSuppression=true, disableWhitelistAec=true)treatAsScreencast=false))constraints={"audio":{"optional":[{"googEchoCancellation":true},{"googEchoCancellation2":true},{"googAutoGainControl":true},{"googNoiseSuppression":true},{"googHighpassFilter":true},{"googAudioMirroring":true}],"mandatory":{"sourceId":"default"}},"video":false}.
+[0.238s]8 realtime.media.api.webrtc.CaptureManager: Setting audio in to device with id=default, deviceLabel=Predeterminado - Audio Interno Estéreo Analógico,
+            groupId=51a39a56ee5f97926c1f11a79862816d6788909a2da96526a77a686b4cab0778
+[0.238s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Setting device to deviceId=null.
+[0.238s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=nd stream=null)] Update source state from li to mu
+[0.239s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Skipping update usermedia while device in state=nd.
+[0.239s]8 realtime.media.api.webrtc.CaptureManager: Setting video in to device with id=null
+[0.239s]8 realtime.media.capture.device.Collection: Persistently selected Speaker has returned, switching from Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isPreferred=false) to Device(id=default, displayName=Predeterminado, groupId=default, fullName=, isPreferred=false)
+[0.239s]8 realtime.media.capture.device.Collection: Choosing Speaker Device(id=default, displayName=Predeterminado, groupId=default, fullName=, isPreferred=false) for media request.
+[0.239s]8 realtime.media.api.webrtc.Delegate: Setting audio out to device with id=default
+[0.239s]8 realtime.media.capture.OutputManager: Audio output device ID (default) set.
+[0.239s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Setting device to deviceId=default.
+[0.239s]8 realtime.media.api.webrtc.CaptureManager: Setting audio in to device with id=default, deviceLabel=Predeterminado - Audio Interno Estéreo Analógico,
+            groupId=51a39a56ee5f97926c1f11a79862816d6788909a2da96526a77a686b4cab0778
+[0.239s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Setting device to deviceId=null.
+[0.239s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Skipping update usermedia while device in state=nd.
+[0.239s]8 realtime.media.api.webrtc.CaptureManager: Setting video in to device with id=null
+[0.239s]8 realtime.media.capture.device.Collection: Persistently selected Camera has returned, switching from Device(id=__absent_device__, displayName=__absent_device__, groupId=__absent_device__, fullName=__absent_device__, isPreferred=false) to Device(id=c7832abeb7e3ff0875313972c44289c641a178b6a026e26b2bc27a051d8c9917, displayName=Lenovo EasyCamera (5986:055e), groupId=f366b0494b0e4a0cfc01a142d7daef0245945b4416ee00b849bf88a18f30e0ef, fullName=, isPreferred=false)
+[0.239s]8 realtime.media.capture.device.Collection: Choosing Camera Device(id=c7832abeb7e3ff0875313972c44289c641a178b6a026e26b2bc27a051d8c9917, displayName=Lenovo EasyCamera (5986:055e), groupId=f366b0494b0e4a0cfc01a142d7daef0245945b4416ee00b849bf88a18f30e0ef, fullName=, isPreferred=false) for media request.
+[0.239s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Setting device to deviceId=default.
+[0.239s]8 realtime.media.api.webrtc.CaptureManager: Setting audio in to device with id=default, deviceLabel=Predeterminado - Audio Interno Estéreo Analógico,
+            groupId=51a39a56ee5f97926c1f11a79862816d6788909a2da96526a77a686b4cab0778
+[0.239s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=nd stream=null)] Setting device to deviceId=c7832abeb7e3ff0875313972c44289c641a178b6a026e26b2bc27a051d8c9917.
+[0.239s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=) muted=false paused=false deviceState=re stream=null)] Update source state from mu to li
+[0.240s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Return empty user media constraints with null deviceId.
+[0.240s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Skipping update usermedia with empty constraints.
+[0.241s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Attempting update usermedia with id=0 settings=VideoSettings(base=MediaSettings(deviceId=c7832abeb7e3ff0875313972c44289c641a178b6a026e26b2bc27a051d8c9917,deviceLabel=null,groupId=null), minVideoShape=VideoShape(width=1280, height=720, frameRate=30), maxVideoShape=VideoShape(width=1280, height=720, frameRate=30))constraints={"audio":false,"video":{"deviceId":{"exact":"c7832abeb7e3ff0875313972c44289c641a178b6a026e26b2bc27a051d8c9917"},"advanced":[{"frameRate":{"min":30}},{"height":{"min":720}},{"width":{"min":1280}},{"frameRate":{"max":30}},{"width":{"max":1280}},{"height":{"max":720}}]}}.
+[0.241s]8 realtime.media.api.webrtc.CaptureManager: Setting video in to device with id=c7832abeb7e3ff0875313972c44289c641a178b6a026e26b2bc27a051d8c9917
+[0.252s]8 realtime.media.api.webrtc.PeerNegotiator: Initial offer successfully created.
+[0.253s]8 realtime.media.api.webrtc.PeerNegotiator: Creating the initial local description from the offer SDP.
+[0.257s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Creating the initial local description succeeded
+[0.257s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Registering sessionId=c11138371541051320789_NMS.
+[0.257s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Adding capture=Capture(source=Source(id=3 type=d content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)
+[0.257s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Successfully added capture: {"config":null,"muted":false,"state":"El dispositivo está preparado"}
+[0.257s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Registering sessionId=c11138371541051320789_NMS.
+[0.257s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Adding capture=Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)
+[0.257s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Successfully added capture: {"config":null,"muted":false,"state":"El dispositivo está preparado"}
+[0.257s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Registering sessionId=c11138371541051320789_NMS.
+[0.257s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Adding capture=Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)
+[0.257s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Successfully added capture: {"config":null,"muted":false,"state":"El dispositivo está preparado"}
+[0.257s]8 realtime.media.session.SessionManager: Local session initialize completed.
+[0.262s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Starting local video: Session ID = default-settings-session-id SSRC = <unknown>
+[0.287s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Registering sessionId=default-settings-session-id.
+[0.301s]8 realtime.media.session.SessionManager: Got ICE/TURN credentials: [{"urls":["stun:74.125.140.127:19302","stun:[2a00:1450:400c:c08::7f]:19302"]},{"urls":["turn:74.125.140.127:19305?transport=udp","turn:[2a00:1450:400c:c08::7f]:19305?transport=udp","turn:74.125.140.127:19305?transport=tcp","turn:[2a00:1450:400c:c08::7f]:19305?transport=tcp"],"username":"CIG6p+UFEgbs9+2UhtQY+fe/zcQCIICjBQ","credential":"ENCDjcdFJJd1B4KPB8Hta0e5NK8="}]
+[0.301s]8 realtime.media.audio.EchoDetector: EchoDetector constructor
+[0.303s]8 realtime.media.api.webrtc.AudioMonitor: Registering peer controller=PeerController(sessionId=c16863869681456621090_P2P).
+[0.304s]8 realtime.media.api.apiary.RemoteSession: Creating a new remote session with earlyMediaHangoutId=mfFx5eclm5TSo5_cDT8pAEEI P2P=true useAudio=true useVideo=true
+[0.304s]8 realtime.media.session.SessionImpl: [localSessionId=c16863869681456621090_P2P] Creating a new session with
+     options={"useAudio":true,"useVideo":true,"useData":true,"useVideoRtx":true,"useAudioUplinkNack":false,"dumpRtpHeaders":false,"allowEarlyMedia":true,"earlyMediaHangoutId":"mfFx5eclm5TSo5_cDT8pAEEI","defaultRequests":[{"aa":"","da":"","$":"a","G":null,"H":null,"Y":true,"ca":null,"Z":0,"ea":[],"ga":null},{"aa":"","da":"","$":"v","G":{"width":1280,"height":720},"H":30,"Y":true,"ca":null,"Z":0,"ea":[],"ga":null}],"useStandardIce":true,"debugLogUploadAllowed":false,"debugLogUploadForced":true,"clientResource":"elaneEAC3985E","useCallPerf":false,"useSimulcast":false,"allowSimulcastOnScreencast":false,"useP2P":true,"useTURN":true,"startMuted":false,"useDtls":false,"useConferenceMode":true,"Dscp":"off","useVirtualAudioSSRCs":true,"allowH264":false,"allowVp9":false,"sendVp9":false,"forceVp9":false,"useAdaptiveLayering_":false,"useWebrtcCpuAdaptation":true,"useBackendLoudestSpeaker":true,"bandwidthConstraints":{"G":-1,"H":-1,"Y":-1},"jmiUploadIntervalMs":10000,"shouldHistogramData":false,"allowOnlyRequestedVideo":false,"isTestCall":false,"forceUnifiedPlan":false,"audioJitterBufferMaxPackets":null,"audioJitterBufferFastAccelerate":false,"audioJitterBufferMinDelayMs":null,"enableAdaptationReasonClientRequestFps":false,"disableDtlsForP2P":true,"audioProcessorConfig":null,"screencastMinBitrate":null,"audioLevelMode":0}.
+[0.305s]8 realtime.media.session.SessionImpl: [localSessionId=c16863869681456621090_P2P] Now has these participants: []
+[0.305s]8 realtime.media.session.SessionImpl: [localSessionId=c16863869681456621090_P2P] Latency event: send initiate.
+[0.305s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c16863869681456621090_P2P)] Instantiating new peer
+[0.305s]8 realtime.media.api.webrtc.PeerConnection: Creating new PeerConnection with config={"iceServers":[{"urls":["stun:74.125.140.127:19302","stun:[2a00:1450:400c:c08::7f]:19302"]},{"urls":["turn:74.125.140.127:19305?transport=udp","turn:[2a00:1450:400c:c08::7f]:19305?transport=udp","turn:74.125.140.127:19305?transport=tcp","turn:[2a00:1450:400c:c08::7f]:19305?transport=tcp"],"username":"CIG6p+UFEgbs9+2UhtQY+fe/zcQCIICjBQ","credential":"ENCDjcdFJJd1B4KPB8Hta0e5NK8="},{"urls":["stun:stun.l.google.com:19302","stun:stun1.l.google.com:19302","stun:stun2.l.google.com:19302","stun:stun3.l.google.com:19302","stun:stun4.l.google.com:19302"]}],"bundlePolicy":"max-bundle","sdpSemantics":"plan-b"} constraints={"mandatory":{"RtpDataChannels":true,"DtlsSrtpKeyAgreement":false},"optional":[{"googHighStartBitrate":true},{"googHighBitrate":true},{"googPayloadPadding":true},{"googSkipEncodingUnusedStreams":true},{"googScreencastMinBitrate":400},{"googVeryHighBitrate":true},{"googCpuOveruseDetection":true},{"googCpuOveruseEncodeUsage":true},{"googCpuUnderuseThreshold":55},{"googCpuOveruseThreshold":85}]}
+[0.311s]8 realtime.media.api.webrtc.PeerNegotiator: Creating initial offer.
+[0.311s]8 realtime.media.api.webrtc.PeerNegotiator: Creating a local offer (isIceRestart=false).
+[0.311s]8 talk.media.webrtc.Extension: Opening port named processCpu
+[0.316s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Update usermedia success with id=0.
+[0.316s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] getUserMedia success for stream=vikVOfxlEik21F3MMIPcvf1u6LTlHiKDw2gL.
+[0.317s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=null)] Stream changed with new stream=d72a9467-99f5-4fe7-ac36-52399d54fa66.
+[0.317s]8 realtime.media.api.webrtc.Capture: Creating volume monitor for stream with id=d72a9467-99f5-4fe7-ac36-52399d54fa66 in Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)
+[0.317s]8 realtime.media.audio.AudioOutput: [AudioOutput(stream=d72a9467-99f5-4fe7-ac36-52399d54fa66, volume=0, elements.length=0)] Setting requested volume to 1.
+[0.318s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] StreamInfo=Stream(participantId=, mediaType=a, sourceId=1, streamId=c11138371541051320789_NMS/1, muted=false, croppable=true, mediaStreamId=5df50ba8-408a-407f-8afa-9c8cfb2148f7, mediaStreamTrackId=c12f9586-b2c4-4d81-80ef-a1e6c87c57cc, ssrcs=950055423, rids=null, ssrcGroups=, adaptationFlags=0) updated.
+[0.319s]8 realtime.media.api.webrtc.PeerNegotiator: Skipping negotiation since remote description has been set yet.
+[0.319s]8 realtime.media.audio.EchoDetector: setCaptureStream completed
+[0.319s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] echoCancellation=true
+[0.319s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] echoCancellationType=aec3
+[0.320s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Skipping update usermedia because settings were unchanged.
+[0.320s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Skipping update usermedia because settings were unchanged.
+[0.333s]8 realtime.media.api.webrtc.PeerNegotiator: Initial offer successfully created.
+[0.333s]8 realtime.media.api.webrtc.PeerNegotiator: Creating the initial local description from the offer SDP.
+[0.338s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c16863869681456621090_P2P)] Creating the initial local description succeeded
+[0.339s]8 realtime.media.session.SessionManager: Local session initialize completed.
+[0.429s]8 realtime.media.audio.EchoDetector: Initialized - version 5
+[0.429s]8 realtime.media.audio.EchoDetector: Loaded and initialized in 254ms
+[0.472s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Update usermedia success with id=0.
+[0.475s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] getUserMedia success for stream=ksDZch3qazSx5EouISosPJAjyyHKUiHig8J8.
+[0.479s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=null)] Stream changed with new stream=cda91872-c461-4446-b296-7713d1cf1915.
+[0.479s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] default-settings-session-id: Video stream: 99971da5-6cf8-4150-8ade-cf5ffa85bc13 ssrc: null
+[0.484s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] StreamInfo=Stream(participantId=, mediaType=v, sourceId=2, streamId=c11138371541051320789_NMS/2, muted=false, croppable=true, mediaStreamId=5e6596d1-0987-4cdf-b2ef-4b7563503de3, mediaStreamTrackId=139f4dea-b2a8-43f1-b743-6675e9b0dec5, ssrcs=2904261316,2356434190,2007914673,3855260242,3269598952,487583880, rids=null, ssrcGroups=SsrcGroup(semantics=SIM, ssrcs=2904261316,2356434190,2007914673),SsrcGroup(semantics=FID, ssrcs=2904261316,3855260242),SsrcGroup(semantics=FID, ssrcs=2356434190,3269598952),SsrcGroup(semantics=FID, ssrcs=2007914673,487583880), adaptationFlags=0) updated.
+[0.484s]8 realtime.media.api.webrtc.PeerNegotiator: Skipping negotiation since remote description has been set yet.
+[0.524s]8 realtime.media.audio.EchoDetector: Initialized - version 5
+[0.525s]8 realtime.media.audio.EchoDetector: Loaded and initialized in 224ms
+[0.576s]8 realtime.media.api.webrtc.LoggingManager: Log upload requested for sessionId=c11138371541051320789_NMS
+[0.578s]8 realtime.media.api.webrtc.LoggingManager: Log upload requested for sessionId=c16863869681456621090_P2P
+[0.578s]8 realtime.media.logging.upload.LogUploadService: Log upload allowed. Starting upload.
+[0.655s]8 realtime.media.session.SessionManager: P2P session add response received with session id IAEwAkoKbHCN_dwpf5rp5g
+[0.655s]8 realtime.media.api.apiary.RemoteSession: Session id changing from {unset} to IAEwAkoKbHCN_dwpf5rp5g
+[0.655s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] starting session sync
+[0.655s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] sending session query
+[0.655s]8 realtime.media.session.SessionImpl: [localSessionId=c16863869681456621090_P2P] Session IDs are now set: LocalSession ID: c16863869681456621090_P2P,
+       RemoteSession ID: IAEwAk{#15}g. Note: Session
+       is not yet active.
+[0.659s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Video started: mirrored
+[0.661s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Video resolution of null is [object Object]
+[0.664s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Video resolution of null is [object Object]
+[0.732s]8 realtime.media.api.apiary.RemoteSession: Session id changing from {unset} to MAJKCkLFX4It2gnJHRA
+[0.732s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] starting session sync
+[0.732s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] sending session query
+[0.732s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Session IDs are now set: LocalSession ID: c11138371541051320789_NMS,
+       RemoteSession ID: MAJKCk{#12}A. Note: Session
+       is not yet active.
+[0.732s]8 realtime.media.session.SessionManager: Received remote description for session MAJKCk{#12}A with sufficient data to allow session preparation.
+[0.732s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Changed state from INITIAL to STARTING
+[0.732s]8 realtime.media.api.webrtc.LoggingManager: Starting logging for sessionId=c11138371541051320789_NMS
+[0.733s]8 ### Start [Sat Apr 06 2019 13:20:41 GMT+0200 (hora de verano de Europa central)] ### c11138371541051320789_NMS
+[0.733s]8 Current time is Sat, 06 Apr 2019 11:20:41 GMT
+[0.733s]8 Google Talk Plugin Version: 11.0.0.0
+[0.733s]8 User agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+[0.733s]8 realtime.media.api.webrtc.LoggingManager: Requesting upload of the native WebRTC logs
+[0.733s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: recv local description.
+[0.733s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Calling initial setLocalDescription
+[0.733s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing setting of the initial local description.
+[0.734s]8 realtime.media.api.webrtc.PeerNegotiator: Generating initial local offer SDP.
+[0.737s]8 realtime.media.api.webrtc.PeerNegotiator: Setting initial local offer.
+[0.738s]8 realtime.media.api.webrtc.LocalSession: enableRtpHeaderDump called with enable=false for sessionId=c11138371541051320789_NMS
+[0.738s]8 realtime.media.api.webrtc.LoggingManager: enableRtpHeaderDump called with sessionId=c11138371541051320789_NMS and enable=false
+[0.738s]8 realtime.media.api.webrtc.LoggingManager: Ignoring enableRtpHeaderDump call for sessionId=c11138371541051320789_NMS as header dump already in state with enable=false
+[0.738s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A state changed from INITIAL to STARTING
+[0.738s]8 realtime.media.session.SessionManager: Received remote description for session MAJKCk{#12}A with sufficient data to allow starting the session.
+[0.738s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Starting with remote description: {"sessionId":"MAJKCkLFX4It2gnJHRA","audio":{"type":"a","mediaId":"audio","bandwidthConstraints":"null","codecs":[{"Ao":"a","Pf":111,"Bo":"opus","Nm":0,"Ek":48000,"yj":2,"H":null,"G":{"minptime":"10","useinbandfec":"1"}},{"Ao":"a","Pf":103,"Bo":"ISAC","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":104,"Bo":"ISAC","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":9,"Bo":"G722","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":0,"Bo":"PCMU","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":8,"Bo":"PCMA","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":106,"Bo":"CN","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":105,"Bo":"CN","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":13,"Bo":"CN","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":110,"Bo":"telephone-event","Nm":0,"Ek":48000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":112,"Bo":"telephone-event","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":113,"Bo":"telephone-event","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":126,"Bo":"telephone-event","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","Do":1,"Eo":"a"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[6666,6667,6668],"loudestCsrc":42},"video":{"type":"v","mediaId":"video","bandwidthConstraints":"null","codecs":[{"Ao":"v","Pf":96,"Bo":"VP8","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{}},{"Ao":"v","Pf":97,"Bo":"rtx","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{"apt":"96"}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","Do":3,"Eo":"v"},{"Ug":"urn:3gpp:video-orientation","Do":4,"Eo":"v"},{"Ug":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","Do":5,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-content-type","Do":7,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-timing","Do":8,"Eo":"v"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"data":{"type":"d","mediaId":"data","bandwidthConstraints":"null","codecs":[],"streams":[],"sctpSettings":{"port":5000,"name":"webrtc-datachannel","messagesize":null,"numstreams":256},"rtpHeaderExtensions":[],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"pushChannels":"DataChannelDescriptor(label=collections id=call/elaneEAC3985E, SSRC=971098475, format=1)","transport":{"version":"ICE","ufrag":"z8WzqdwUETx55I3x","pwd":"7+wDjS37wHStdVVL8DU0toJu","fingerprint":"sha-256 D5:F9:93:E6:C0:EE:B7:70:A0:03:F5:CD:17:59:F3:B0:29:1A:1B:FA:41:6C:76:AC:44:0A:59:C0:37:5A:FA:1C","dtlsRole":"active","candidates":"Candidate(component=1, priority=2130706431, type=LOCAL, protocol=UDP, ip=74.125.140.127, port=19305, foundation=2130706431, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706430, type=LOCAL, protocol=TCP, ip=74.125.140.127, port=19305, foundation=2130706430, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706429, type=LOCAL, protocol=SSLTCP, ip=74.125.140.127, port=443, foundation=2130706429, generation=0, network=, relatedIp=null, relatedPort=null)","mode":"lite"},"cryptos":[]}
+[0.739s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A state changed from STARTING to STARTED
+[0.740s]8 realtime.media.api.webrtc.LocalSession: sendLogComment: RemoteSessionId=MAJKCkLFX4It2gnJHRA
+[0.740s]8 realtime.media.api.webrtc.LocalSession: Session c11138371541051320789_NMS setting remote descriptions: {"sessionId":"MAJKCkLFX4It2gnJHRA","audio":{"type":"a","mediaId":"audio","bandwidthConstraints":"null","codecs":[{"Ao":"a","Pf":111,"Bo":"opus","Nm":0,"Ek":48000,"yj":2,"H":null,"G":{"minptime":"10","useinbandfec":"1"}},{"Ao":"a","Pf":103,"Bo":"ISAC","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":104,"Bo":"ISAC","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":9,"Bo":"G722","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":0,"Bo":"PCMU","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":8,"Bo":"PCMA","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":106,"Bo":"CN","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":105,"Bo":"CN","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":13,"Bo":"CN","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":110,"Bo":"telephone-event","Nm":0,"Ek":48000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":112,"Bo":"telephone-event","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":113,"Bo":"telephone-event","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":126,"Bo":"telephone-event","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","Do":1,"Eo":"a"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[6666,6667,6668],"loudestCsrc":42},"video":{"type":"v","mediaId":"video","bandwidthConstraints":"null","codecs":[{"Ao":"v","Pf":96,"Bo":"VP8","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{}},{"Ao":"v","Pf":97,"Bo":"rtx","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{"apt":"96"}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","Do":3,"Eo":"v"},{"Ug":"urn:3gpp:video-orientation","Do":4,"Eo":"v"},{"Ug":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","Do":5,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-content-type","Do":7,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-timing","Do":8,"Eo":"v"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"data":{"type":"d","mediaId":"data","bandwidthConstraints":"null","codecs":[],"streams":[{"ca":"d","ea":"call/elaneEAC3985E","ga":"collections","G":"971098475","da":false,"Z":true,"Qf":"collections","$":null,"aa":null,"oa":[971098475],"H":null,"Y":[],"ha":0}],"sctpSettings":{"port":5000,"name":"webrtc-datachannel","messagesize":null,"numstreams":256},"rtpHeaderExtensions":[],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"pushChannels":"DataChannelDescriptor(label=collections id=call/elaneEAC3985E, SSRC=971098475, format=1)","transport":{"version":"ICE","ufrag":"z8WzqdwUETx55I3x","pwd":"7+wDjS37wHStdVVL8DU0toJu","fingerprint":"sha-256 D5:F9:93:E6:C0:EE:B7:70:A0:03:F5:CD:17:59:F3:B0:29:1A:1B:FA:41:6C:76:AC:44:0A:59:C0:37:5A:FA:1C","dtlsRole":"active","candidates":"Candidate(component=1, priority=2130706431, type=LOCAL, protocol=UDP, ip=74.125.140.127, port=19305, foundation=2130706431, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706430, type=LOCAL, protocol=TCP, ip=74.125.140.127, port=19305, foundation=2130706430, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706429, type=LOCAL, protocol=SSLTCP, ip=74.125.140.127, port=443, foundation=2130706429, generation=0, network=, relatedIp=null, relatedPort=null)","mode":"lite"},"cryptos":[]}
+[0.740s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: recv remote description.
+[0.740s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing negotiation.
+[0.740s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: recv view request.
+[0.740s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Changed state from STARTING to STARTED
+[0.741s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: recv candidate .
+[0.741s]8 realtime.media.api.webrtc.LoggingManager: Log upload requested for sessionId=c11138371541051320789_NMS
+[0.744s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Stream Requests for UP streams received from remote
+     side: [{"aa":"","da":"2","$":"v","G":{"width":1280,"height":720},"H":30,"Y":true,"ca":"MAJKCkLFX4It2gnJHRA","Z":0,"ea":[2904261316,2356434190,2007914673,3855260242,3269598952,487583880],"ga":"c11138371541051320789_NMS/2"}].
+[0.744s]8 talk.media.webrtc.Extension: Sending message {"method":"logging.setMetadata","metaData":[{"key":"client","value":"Hangouts"},{"key":"sessionId","value":"c11138371541051320789_NMS"},{"key":"participantLogId","value":"elane_EMYmyp9NNS1"},{"key":"url","value":"https://hangouts.google.com/call/mfFx5eclm5TSo5_cDT8pAEEI"}]}
+[0.744s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Sending stream requests for UP streams to local session:
+     [{"aa":"","da":"2","$":"v","G":{"width":1280,"height":720},"H":30,"Y":true,"ca":"MAJKCkLFX4It2gnJHRA","Z":0,"ea":[2904261316,2356434190,2007914673,3855260242,3269598952,487583880],"ga":"c11138371541051320789_NMS/2"}].
+[0.745s]8 realtime.media.api.webrtc.Capture: Applying constraints to the session stream for stream request (
+          settings=VideoSettings(base=MediaSettings(deviceId=c7832abeb7e3ff0875313972c44289c641a178b6a026e26b2bc27a051d8c9917,deviceLabel=null,groupId=null), minVideoShape=VideoShape(width=1280, height=720, frameRate=30), maxVideoShape=VideoShape(width=1280, height=720, frameRate=30)),
+          constraints=[object Object],
+          request=StreamRequest(participantId: , sourceId: 2, mediaType: v, resolution: 1280x720, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 2904261316,2356434190,2007914673,3855260242,3269598952,487583880, streamId: c11138371541051320789_NMS/2))
+[0.746s]8 realtime.media.api.webrtc.PeerNegotiator: Initial local offer set successfully.
+[0.746s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=0): Starting.
+[0.746s]8 realtime.media.api.webrtc.PeerNegotiator: Altering remote description (answer).
+[0.747s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Initial setLocalDescription offer succeeded
+[0.749s]8 talk.media.webrtc.Extension: Sending message {"method":"logging.uploadOnRenderClose"}
+[0.764s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] ICE connection state changed to: checking
+[0.764s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Got local ICE candidate: {"G":1,"da":2122260223,"oa":"LOCAL","Y":"UDP","ca":"192.168.1.136","H":58207,"ea":"3513675092","aa":0,"ga":"","Z":null,"$":null}
+[0.764s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: send candidate LOCAL.
+[0.764s]8 realtime.media.api.webrtc.PeerNegotiator: Adding 3 pending ICE candidates after setRemoteDescription.
+[0.766s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=0): Successfully completed.
+[0.766s]8 realtime.media.api.webrtc.LoggingManager: Native uploadLogOnRenderClose succeeded.
+[0.768s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] session query returned version 1, have -1
+[0.768s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] scheduling session query
+[0.800s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Got local ICE candidate: {"G":1,"da":1686052607,"oa":"STUN","Y":"UDP","ca":"81.0.24.70","H":1487,"ea":"1344695264","aa":0,"ga":"","Z":"192.168.1.136","$":58207}
+[0.802s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: send candidate STUN.
+[0.837s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] session query returned version 1, have -1
+[0.839s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] scheduling session query
+[1.265s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Sending local ICE candidates over to the other side:
+     [{"G":1,"da":2122260223,"oa":"LOCAL","Y":"UDP","ca":"192.168.1.136","H":58207,"ea":"3513675092","aa":0,"ga":"","Z":null,"$":null},{"G":1,"da":1686052607,"oa":"STUN","Y":"UDP","ca":"81.0.24.70","H":1487,"ea":"1344695264","aa":0,"ga":"","Z":"192.168.1.136","$":58207}].
+[2.280s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=false paused=false deviceState=re stream=cda91872-c461-4446-b296-7713d1cf1915)] Setting mute state to mute=true.
+[2.281s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=true paused=false deviceState=re stream=cda91872-c461-4446-b296-7713d1cf1915)] Stopping stream with id=99971da5-6cf8-4150-8ade-cf5ffa85bc13
+[2.281s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=true paused=false deviceState=re stream=cda91872-c461-4446-b296-7713d1cf1915)] Stopping stream with id=5e6596d1-0987-4cdf-b2ef-4b7563503de3
+[2.281s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=true paused=false deviceState=re stream=cda91872-c461-4446-b296-7713d1cf1915)] Stopping stream with id=cda91872-c461-4446-b296-7713d1cf1915
+[2.281s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=true paused=false deviceState=re stream=cda91872-c461-4446-b296-7713d1cf1915)] Stream changed with new stream=null.
+[2.281s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=true paused=false deviceState=re stream=null)] Stopping stream with id=ksDZch3qazSx5EouISosPJAjyyHKUiHig8J8
+[2.281s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=li participantId=) muted=true paused=false deviceState=re stream=null)] Update source state from li to mu
+[2.284s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Cannot get the video stream.
+[2.289s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Unregistering sessionId=default-settings-session-id.
+[2.289s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Stopping stream with id=2ab2c538-0a02-48e7-a644-72875edd943e
+[2.291s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Registering sessionId=default-settings-session-id.
+[3.530s]8 realtime.media.session.SessionManager: Connecting to hangoutId: mfFx5eclm5TSo5_cDT8pAEEI, with participantId: DF7D9F5ACFCCAA32 and sessionLogData: { ParticipantLogId: elane_EMYmyp9NNS1, MucJid: jid, SyntheticId: , MeetingCode: , MeetingSpaceId:  }
+[3.530s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Connecting session to hangoutId=mfFx5eclm5TSo5_cDT8pAEEI.
+[3.530s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Adding stream with id=5df50ba8-408a-407f-8afa-9c8cfb2148f7 to peer
+[3.531s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: call connect.
+[3.531s]8 realtime.media.stats.BandwidthLatencyReporter: Latency: call connect Id: 25 was marked at: 1554549643914
+[3.532s]8 realtime.media.api.apiary.RemoteSession: Attempting to connect session MAJKCk{#12}A to Hangout: mfFx5eclm5TSo5_cDT8pAEEI
+[3.533s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Now has these participants: []
+[3.533s]8 realtime.media.session.SessionImpl: [localSessionId=c16863869681456621090_P2P] Now has these participants: []
+[3.540s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A is started and connected to Hangout: mfFx5eclm5TSo5_cDT8pAEEI with participantId: DF7D9F5ACFCCAA32 and participantLogId: elane_EMYmyp9NNS1
+[3.541s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A state changed from STARTED to INPROGRESS
+[3.640s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Now has these participants: ["DF7D9F5ACFCCAA32","7BB241AE163219B4"]
+[3.641s]8 realtime.media.session.SessionImpl: [localSessionId=c16863869681456621090_P2P] Now has these participants: ["DF7D9F5ACFCCAA32","7BB241AE163219B4"]
+[3.650s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=1 type=a content=un state=li participantId=7BB241AE163219B4)
+[3.650s]8 realtime.media.audio.service.AudioVolumeService: Register participant 7BB241AE163219B4
+[3.655s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Unregistering sessionId=default-settings-session-id.
+[3.655s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Stopping stream with id=3b93e62b-b810-4e5b-8433-c641253b85f1
+[3.660s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Registering sessionId=default-settings-session-id.
+[3.660s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Registering sessionId=default-settings-session-id.
+[3.661s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=1 type=a content=un state=li participantId=7BB241AE163219B4)
+[3.661s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Cannot get the video stream.
+[3.661s]9 Warning(talk.media.webrtc.OutputTracker): recordBeforeVideoStop: No info found for ssrc null
+[3.662s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=null)] Unregistering sessionId=default-settings-session-id.
+[3.681s]9 Warning(realtime.media.session.SessionManager): Unable to find stream to use to render source: Source(id=2 type=v content=sc state=li participantId=7BB241AE163219B4)
+[3.683s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=42] Cannot get the video stream.
+[3.684s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Cannot get the video stream.
+[3.695s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A notified of new remote stream: Stream(participantId=7BB241AE163219B4, mediaType=a, sourceId=1, streamId=1434437897, muted=false, croppable=true, mediaStreamId=1434437897, mediaStreamTrackId=1434437897, ssrcs=1434437897, rids=null, ssrcGroups=, adaptationFlags=0)
+[3.696s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A notified of new remote stream: Stream(participantId=7BB241AE163219B4, mediaType=d, sourceId=3, streamId=1759873205, muted=false, croppable=true, mediaStreamId=1759873205, mediaStreamTrackId=1759873205, ssrcs=1759873205, rids=null, ssrcGroups=, adaptationFlags=0)
+[3.696s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A notified of new remote stream: Stream(participantId=7BB241AE163219B4, mediaType=v, sourceId=2, streamId=989640135, muted=false, croppable=false, mediaStreamId=989640135, mediaStreamTrackId=989640135, ssrcs=989640135,3334063423, rids=null, ssrcGroups=SsrcGroup(semantics=FID, ssrcs=989640135,3334063423), adaptationFlags=0)
+[3.696s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A notified of new remote stream: Stream(participantId=DF7D9F5ACFCCAA32, mediaType=v, sourceId=2, streamId=1866240046, muted=false, croppable=true, mediaStreamId=1866240046, mediaStreamTrackId=1866240046, ssrcs=1866240046,3079636944, rids=null, ssrcGroups=SsrcGroup(semantics=FID, ssrcs=1866240046,3079636944), adaptationFlags=0)
+[3.696s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A notified of new remote stream: Stream(participantId=DF7D9F5ACFCCAA32, mediaType=a, sourceId=1, streamId=950055423, muted=false, croppable=true, mediaStreamId=950055423, mediaStreamTrackId=950055423, ssrcs=950055423, rids=null, ssrcGroups=, adaptationFlags=0)
+[3.696s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Sending stream adds. addedStreams.length=5,
+         removedStreams.length=0
+[3.696s]8 realtime.media.api.webrtc.LocalSession: Session c11138371541051320789_NMS setting remote descriptions: {"sessionId":"MAJKCkLFX4It2gnJHRA","audio":{"type":"a","mediaId":"audio","bandwidthConstraints":"null","codecs":[{"Ao":"a","Pf":111,"Bo":"opus","Nm":0,"Ek":48000,"yj":2,"H":null,"G":{"minptime":"10","useinbandfec":"1"}},{"Ao":"a","Pf":103,"Bo":"ISAC","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":104,"Bo":"ISAC","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":9,"Bo":"G722","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":0,"Bo":"PCMU","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":8,"Bo":"PCMA","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":106,"Bo":"CN","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":105,"Bo":"CN","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":13,"Bo":"CN","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":110,"Bo":"telephone-event","Nm":0,"Ek":48000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":112,"Bo":"telephone-event","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":113,"Bo":"telephone-event","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":126,"Bo":"telephone-event","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}}],"streams":[{"ca":"a","ea":"7BB241AE163219B4","ga":"1","G":"1434437897","da":false,"Z":true,"Qf":"1434437897","$":"1434437897","oa":[1434437897],"H":null,"Y":[],"ha":0},{"ca":"a","ea":"DF7D9F5ACFCCAA32","ga":"1","G":"950055423","da":false,"Z":true,"Qf":"950055423","$":"950055423","oa":[950055423],"H":null,"Y":[],"ha":0}],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","Do":1,"Eo":"a"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[6666,6667,6668],"loudestCsrc":42},"video":{"type":"v","mediaId":"video","bandwidthConstraints":"null","codecs":[{"Ao":"v","Pf":96,"Bo":"VP8","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{}},{"Ao":"v","Pf":97,"Bo":"rtx","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{"apt":"96"}}],"streams":[{"ca":"v","ea":"7BB241AE163219B4","ga":"2","G":"989640135","da":false,"Z":false,"Qf":"989640135","$":"989640135","oa":[989640135,3334063423],"H":null,"Y":[{"G":"FID","H":[989640135,3334063423]}],"ha":0},{"ca":"v","ea":"DF7D9F5ACFCCAA32","ga":"2","G":"1866240046","da":false,"Z":true,"Qf":"1866240046","$":"1866240046","oa":[1866240046,3079636944],"H":null,"Y":[{"G":"FID","H":[1866240046,3079636944]}],"ha":0}],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","Do":3,"Eo":"v"},{"Ug":"urn:3gpp:video-orientation","Do":4,"Eo":"v"},{"Ug":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","Do":5,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-content-type","Do":7,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-timing","Do":8,"Eo":"v"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"data":{"type":"d","mediaId":"data","bandwidthConstraints":"null","codecs":[],"streams":[{"ca":"d","ea":"7BB241AE163219B4","ga":"3","G":"1759873205","da":false,"Z":true,"Qf":"1759873205","$":"1759873205","oa":[1759873205],"H":null,"Y":[],"ha":0},{"ca":"d","ea":"call/elaneEAC3985E","ga":"collections","G":"971098475","da":false,"Z":true,"Qf":"collections","$":null,"aa":null,"oa":[971098475],"H":null,"Y":[],"ha":0}],"sctpSettings":{"port":5000,"name":"webrtc-datachannel","messagesize":null,"numstreams":256},"rtpHeaderExtensions":[],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"pushChannels":"DataChannelDescriptor(label=collections id=call/elaneEAC3985E, SSRC=971098475, format=1)","transport":{"version":"ICE","ufrag":"z8WzqdwUETx55I3x","pwd":"7+wDjS37wHStdVVL8DU0toJu","fingerprint":"sha-256 D5:F9:93:E6:C0:EE:B7:70:A0:03:F5:CD:17:59:F3:B0:29:1A:1B:FA:41:6C:76:AC:44:0A:59:C0:37:5A:FA:1C","dtlsRole":"active","candidates":"Candidate(component=1, priority=2130706431, type=LOCAL, protocol=UDP, ip=74.125.140.127, port=19305, foundation=2130706431, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706430, type=LOCAL, protocol=TCP, ip=74.125.140.127, port=19305, foundation=2130706430, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706429, type=LOCAL, protocol=SSLTCP, ip=74.125.140.127, port=443, foundation=2130706429, generation=0, network=, relatedIp=null, relatedPort=null)","mode":"lite"},"cryptos":[]}
+[3.696s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing negotiation.
+[3.697s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=1): Starting.
+[3.699s]8 realtime.media.api.webrtc.PeerNegotiator: Altering remote description (answer).
+[3.701s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Video stream not requested.
+[3.710s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Remote stream added with id=6666 audioTracks=1 videoTracks=0
+[3.711s]8 realtime.media.capture.OutputManager: Creating audio output for stream (id=6666), ssrc (6666),
+     and output device (id=default)
+[3.711s]8 realtime.media.audio.AudioOutput: [AudioOutput(stream=6666, volume=0, elements.length=0)] Setting requested volume to 1.
+[3.711s]8 realtime.media.audio.AudioOutput: [AudioOutput(stream=6666, volume=0, elements.length=0)] Adding 1 elements.
+[3.712s]8 realtime.media.audio.EchoDetector: addRenderStream completed
+[3.712s]8 realtime.media.audio.AudioOutput: [AudioOutput(stream=6666, volume=1, elements.length=1)] Setting requested volume to 1.
+[3.712s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Remote stream added with id=6667 audioTracks=1 videoTracks=0
+[3.712s]8 realtime.media.capture.OutputManager: Creating audio output for stream (id=6667), ssrc (6667),
+     and output device (id=default)
+[3.712s]8 realtime.media.audio.AudioOutput: [AudioOutput(stream=6667, volume=0, elements.length=0)] Setting requested volume to 1.
+[3.712s]8 realtime.media.audio.AudioOutput: [AudioOutput(stream=6667, volume=0, elements.length=0)] Adding 1 elements.
+[3.714s]8 realtime.media.audio.EchoDetector: addRenderStream completed
+[3.714s]8 realtime.media.audio.AudioOutput: [AudioOutput(stream=6667, volume=1, elements.length=1)] Setting requested volume to 1.
+[3.714s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Remote stream added with id=6668 audioTracks=1 videoTracks=0
+[3.714s]8 realtime.media.capture.OutputManager: Creating audio output for stream (id=6668), ssrc (6668),
+     and output device (id=default)
+[3.714s]8 realtime.media.audio.AudioOutput: [AudioOutput(stream=6668, volume=0, elements.length=0)] Setting requested volume to 1.
+[3.714s]8 realtime.media.audio.AudioOutput: [AudioOutput(stream=6668, volume=0, elements.length=0)] Adding 1 elements.
+[3.715s]8 realtime.media.audio.EchoDetector: addRenderStream completed
+[3.715s]8 realtime.media.audio.AudioOutput: [AudioOutput(stream=6668, volume=1, elements.length=1)] Setting requested volume to 1.
+[3.715s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Remote stream added with id=989640135 audioTracks=0 videoTracks=1
+[3.715s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Remote stream added with id=1866240046 audioTracks=0 videoTracks=1
+[3.715s]8 realtime.media.api.webrtc.PeerNegotiator: Adding 0 pending ICE candidates after setRemoteDescription.
+[3.715s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=1): Successfully completed.
+[3.725s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: play first audio.
+[3.759s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] ICE connection state changed to: connected
+[3.762s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: transport writable.
+[3.763s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Transport state event: transport IS 
+     writable.
+[3.764s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] ICE connection state changed to: completed
+[3.764s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Transport state event: transport IS 
+     writable.
+[3.772s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Received stream request for DOWN stream from UI: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 100x100, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135)
+[3.772s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A sending stream request: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 100x100, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135) with streamId: 989640135
+[3.777s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] send datachannel is open.
+[3.779s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Stream Requests for UP streams received from remote
+     side: [{"aa":"DF7D9F5ACFCCAA32","da":"2","$":"v","G":{"width":1280,"height":720},"H":30,"Y":true,"ca":null,"Z":0,"ea":[2904261316,2356434190,2007914673,3855260242,3269598952,487583880],"ga":null}].
+[3.779s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Sending stream requests for UP streams to local session:
+     [{"aa":"DF7D9F5ACFCCAA32","da":"2","$":"v","G":{"width":1280,"height":720},"H":30,"Y":true,"ca":null,"Z":0,"ea":[2904261316,2356434190,2007914673,3855260242,3269598952,487583880],"ga":null}].
+[3.779s]8 realtime.media.session.SessionImpl: [localSessionId=c16863869681456621090_P2P] Sending stream requests for UP streams to local session:
+     [{"aa":"DF7D9F5ACFCCAA32","da":"2","$":"v","G":{"width":1280,"height":720},"H":30,"Y":true,"ca":null,"Z":0,"ea":[2904261316,2356434190,2007914673,3855260242,3269598952,487583880],"ga":null}].
+[3.779s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Starting remote video: Room JID = null@nowhere.com, Session ID = c11138371541051320789_NMS, SSRC = 989640135
+[3.779s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] c11138371541051320789_NMS: Video stream: 989640135 ssrc: 989640135
+[3.789s]8 realtime.media.audio.service.AudioVolumeService: Backend new speaking participant: 7BB241AE163219B4
+[3.794s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Unregistering sessionId=default-settings-session-id.
+[3.794s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Stopping stream with id=2953f0c6-b8aa-4b65-a997-78c2f69901d5
+[3.796s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Starting remote video: Room JID = null@nowhere.com, Session ID = c11138371541051320789_NMS, SSRC = 989640135
+[3.796s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] c11138371541051320789_NMS: Video stream: 989640135 ssrc: 989640135
+[3.874s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Received stream request for DOWN stream from UI: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 1490x972, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135)
+[3.875s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A sending stream request: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 1490x972, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135) with streamId: 989640135
+[3.915s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] receive datachannel collections created.
+[3.916s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] receive datachannel collections is open.
+[3.916s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=call/elaneEAC3985E label=collections data=["hcbu",[[[null,null,"0"]
+,[null,null,[[397964707122435]
+,[[1,2,"MAJKCkLFX4It2gnJHRA","1866240046","mfFx5eclm5TSo5_cDT8pAEEI","DF7D9F5ACFCCAA32","2",[[1866240046,-1215330352]
+,[["FID",[1866240046,-1215330352]
+]
+]
+,[]
+]
+,[null,0,null,null,[]
+]
+,[0]
+,1]
+]
+,[]
+]
+]
+]
+]
+]
+
+[3.919s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=call/elaneEAC3985E label=collections data=["hcbu",[[[null,null,"0"]
+,[null,null,[[397964707122436]
+,[[1,2,"MAJKCkLFX4It2gnJHRA","1866240046","mfFx5eclm5TSo5_cDT8pAEEI","DF7D9F5ACFCCAA32","2",[[1866240046,-1215330352]
+,[["FID",[1866240046,-1215330352]
+]
+]
+,[]
+]
+,[null,0,null,null,[]
+]
+,[1]
+,1]
+]
+,[]
+]
+]
+]
+]
+]
+
+[3.920s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=call/elaneEAC3985E label=collections data=["hcbu",[[[null,null,"-5848283682170931739"]
+,[null,[[3]
+,[]
+,[]
+,[]
+]
+]
+]
+]
+]
+
+[3.921s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] session push provided version 3, have 1
+[3.921s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] session push provided version 3, have 1
+[3.923s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A received modified remote stream: Stream(participantId=DF7D9F5ACFCCAA32, mediaType=v, sourceId=2, streamId=1866240046, muted=true, croppable=true, mediaStreamId=1866240046, mediaStreamTrackId=1866240046, ssrcs=1866240046,3079636944, rids=null, ssrcGroups=SsrcGroup(semantics=FID, ssrcs=1866240046,3079636944), adaptationFlags=0)
+[3.923s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A received modified remote stream: Stream(participantId=7BB241AE163219B4, mediaType=v, sourceId=2, streamId=989640135, muted=false, croppable=false, mediaStreamId=989640135, mediaStreamTrackId=989640135, ssrcs=989640135,3334063423, rids=null, ssrcGroups=SsrcGroup(semantics=FID, ssrcs=989640135,3334063423), adaptationFlags=0)
+[3.925s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Starting remote video: Room JID = null@nowhere.com, Session ID = c11138371541051320789_NMS, SSRC = 989640135
+[3.925s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] c11138371541051320789_NMS: Video stream: 989640135 ssrc: 989640135
+[3.926s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Starting remote video: Room JID = null@nowhere.com, Session ID = c11138371541051320789_NMS, SSRC = 989640135
+[3.926s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] c11138371541051320789_NMS: Video stream: 989640135 ssrc: 989640135
+[3.940s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Video started: non-mirrored
+[3.941s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Video resolution of 989640135 is [object Object]
+[3.942s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: bandwidth HD.
+[3.942s]8 realtime.media.stats.BandwidthLatencyReporter: Latency: bandwidth HD Id: 28 was marked at: 1554549644325
+[3.942s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: render first video frame.
+[3.943s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Video resolution of 989640135 is [object Object]
+[3.943s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: bandwidth HD.
+[3.943s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Video started: non-mirrored
+[3.944s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Video resolution of 989640135 is [object Object]
+[3.944s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: bandwidth HD.
+[3.944s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: render first video frame.
+[3.946s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Video resolution of 989640135 is [object Object]
+[3.946s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: bandwidth HD.
+[3.976s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Received stream request for DOWN stream from UI: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 1490x832, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135)
+[3.977s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A sending stream request: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 1490x832, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135) with streamId: 989640135
+[3.998s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A received modified remote stream: Stream(participantId=7BB241AE163219B4, mediaType=v, sourceId=2, streamId=989640135, muted=false, croppable=false, mediaStreamId=989640135, mediaStreamTrackId=989640135, ssrcs=989640135,3334063423, rids=null, ssrcGroups=SsrcGroup(semantics=FID, ssrcs=989640135,3334063423), adaptationFlags=0)
+[4.000s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Starting remote video: Room JID = null@nowhere.com, Session ID = c11138371541051320789_NMS, SSRC = 989640135
+[4.000s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Starting remote video: Room JID = null@nowhere.com, Session ID = c11138371541051320789_NMS, SSRC = 989640135
+[4.076s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Received stream request for DOWN stream from UI: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 1490x832, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135)
+[4.082s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A received modified remote stream: Stream(participantId=7BB241AE163219B4, mediaType=v, sourceId=2, streamId=989640135, muted=false, croppable=false, mediaStreamId=989640135, mediaStreamTrackId=989640135, ssrcs=989640135,3334063423, rids=null, ssrcGroups=SsrcGroup(semantics=FID, ssrcs=989640135,3334063423), adaptationFlags=0)
+[4.085s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Starting remote video: Room JID = null@nowhere.com, Session ID = c11138371541051320789_NMS, SSRC = 989640135
+[4.086s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Starting remote video: Room JID = null@nowhere.com, Session ID = c11138371541051320789_NMS, SSRC = 989640135
+[4.178s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Received stream request for DOWN stream from UI: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 1490x832, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135)
+[4.396s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: recv first audio packet.
+[4.397s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Latency event: recv first video packet.
+[4.397s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Changed state from STARTED to INPROGRESS
+[4.397s]8 realtime.media.session.SessionManager: SessionManager changed state from STARTING to INPROGRESS
+[4.398s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Setting audio options to
+     {"autoGainControl":true,"echoCancellation":true,"highPassFilter":true,"inbandFec":true,"dtx":true,"noiseSuppression":true,"preferredSendCodec":null,"sendComfortNoise":true,"sendOpus":true,"sendStereo":false,"stereoSwapping":false,"transientSuppression":true}.
+[4.399s]8 realtime.media.api.webrtc.LocalSession: Session c11138371541051320789_NMS setting remote descriptions: {"sessionId":"MAJKCkLFX4It2gnJHRA","audio":{"type":"a","mediaId":"audio","bandwidthConstraints":"null","codecs":[{"Ao":"a","Pf":111,"Bo":"opus","Nm":0,"Ek":48000,"yj":2,"H":null,"G":{"minptime":"10","useinbandfec":"1","stereo":"0","usedtx":"1"}},{"Ao":"a","Pf":103,"Bo":"ISAC","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":104,"Bo":"ISAC","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":9,"Bo":"G722","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":0,"Bo":"PCMU","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":8,"Bo":"PCMA","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":106,"Bo":"CN","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":105,"Bo":"CN","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":13,"Bo":"CN","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":110,"Bo":"telephone-event","Nm":0,"Ek":48000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":112,"Bo":"telephone-event","Nm":0,"Ek":32000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":113,"Bo":"telephone-event","Nm":0,"Ek":16000,"yj":1,"H":null,"G":{}},{"Ao":"a","Pf":126,"Bo":"telephone-event","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}}],"streams":[{"ca":"a","ea":"7BB241AE163219B4","ga":"1","G":"1434437897","da":false,"Z":true,"Qf":"1434437897","$":"1434437897","oa":[1434437897],"H":null,"Y":[],"ha":0},{"ca":"a","ea":"DF7D9F5ACFCCAA32","ga":"1","G":"950055423","da":false,"Z":true,"Qf":"950055423","$":"950055423","oa":[950055423],"H":null,"Y":[],"ha":0}],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","Do":1,"Eo":"a"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[6666,6667,6668],"loudestCsrc":42},"video":{"type":"v","mediaId":"video","bandwidthConstraints":"null","codecs":[{"Ao":"v","Pf":96,"Bo":"VP8","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{}},{"Ao":"v","Pf":97,"Bo":"rtx","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{"apt":"96"}}],"streams":[{"ca":"v","ea":"7BB241AE163219B4","ga":"2","G":"989640135","da":false,"Z":false,"Qf":"989640135","$":"989640135","oa":[989640135,3334063423],"H":null,"Y":[{"G":"FID","H":[989640135,3334063423]}],"ha":0},{"ca":"v","ea":"DF7D9F5ACFCCAA32","ga":"2","G":"1866240046","da":false,"Z":true,"Qf":"1866240046","$":"1866240046","oa":[1866240046,3079636944],"H":null,"Y":[{"G":"FID","H":[1866240046,3079636944]}],"ha":0}],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","Do":3,"Eo":"v"},{"Ug":"urn:3gpp:video-orientation","Do":4,"Eo":"v"},{"Ug":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","Do":5,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-content-type","Do":7,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-timing","Do":8,"Eo":"v"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"data":{"type":"d","mediaId":"data","bandwidthConstraints":"null","codecs":[],"streams":[{"ca":"d","ea":"7BB241AE163219B4","ga":"3","G":"1759873205","da":false,"Z":true,"Qf":"1759873205","$":"1759873205","oa":[1759873205],"H":null,"Y":[],"ha":0},{"ca":"d","ea":"call/elaneEAC3985E","ga":"collections","G":"971098475","da":false,"Z":true,"Qf":"collections","$":null,"aa":null,"oa":[971098475],"H":null,"Y":[],"ha":0}],"sctpSettings":{"port":5000,"name":"webrtc-datachannel","messagesize":null,"numstreams":256},"rtpHeaderExtensions":[],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"pushChannels":"DataChannelDescriptor(label=collections id=call/elaneEAC3985E, SSRC=971098475, format=1)","transport":{"version":"ICE","ufrag":"z8WzqdwUETx55I3x","pwd":"7+wDjS37wHStdVVL8DU0toJu","fingerprint":"sha-256 D5:F9:93:E6:C0:EE:B7:70:A0:03:F5:CD:17:59:F3:B0:29:1A:1B:FA:41:6C:76:AC:44:0A:59:C0:37:5A:FA:1C","dtlsRole":"active","candidates":"Candidate(component=1, priority=2130706431, type=LOCAL, protocol=UDP, ip=74.125.140.127, port=19305, foundation=2130706431, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706430, type=LOCAL, protocol=TCP, ip=74.125.140.127, port=19305, foundation=2130706430, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706429, type=LOCAL, protocol=SSLTCP, ip=74.125.140.127, port=443, foundation=2130706429, generation=0, network=, relatedIp=null, relatedPort=null)","mode":"lite"},"cryptos":[]}
+[4.399s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing negotiation.
+[4.399s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=2): Starting.
+[4.402s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Session started receiving audio.
+[4.402s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Session started receiving video.
+[4.404s]8 realtime.media.api.webrtc.PeerNegotiator: Altering remote description (answer).
+[4.407s]8 realtime.media.api.webrtc.PeerNegotiator: Adding 0 pending ICE candidates after setRemoteDescription.
+[4.408s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=2): Successfully completed.
+[4.671s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] receive datachannel 7BB241AE163219B4 created.
+[4.672s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] receive datachannel 7BB241AE163219B4 is open.
+[4.672s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=7BB241AE163219B4 label=7BB241AE163219B4 data=ch:cm,CM3ozf4BEgRhYWFhGBUgACgB
+[5.240s]8 realtime.media.api.webrtc.AudioDeviceLogger: Audio devices are on different groupIds (mic: Predeterminado - Audio Interno Estéreo Analógico speaker: Predeterminado)
+[5.670s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=7BB241AE163219B4 label=7BB241AE163219B4 data=ch:cm,CM3ozf4BEgRhYWFhGBUgASgB
+[7.580s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=call/elaneEAC3985E label=collections data=["hcbu",[[[null,null,"0"]
+,[null,null,[[397964707122440]
+,[[1,2,"MAJKCkLFX4It2gnJHRA","989640135","mfFx5eclm5TSo5_cDT8pAEEI","7BB241AE163219B4","2",[[989640135,-960903873]
+,[["FID",[989640135,-960903873]
+]
+]
+,[]
+]
+,[null,1,[832,1490,30]
+,null,[]
+]
+,[1]
+,1]
+]
+,[]
+]
+]
+]
+]
+]
+
+[7.586s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A received modified remote stream: Stream(participantId=7BB241AE163219B4, mediaType=v, sourceId=2, streamId=989640135, muted=true, croppable=true, mediaStreamId=989640135, mediaStreamTrackId=989640135, ssrcs=989640135,3334063423, rids=null, ssrcGroups=SsrcGroup(semantics=FID, ssrcs=989640135,3334063423), adaptationFlags=0)
+[7.591s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Received stream request for DOWN stream from UI: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 1490x832, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135)
+[7.591s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Starting remote video: Room JID = null@nowhere.com, Session ID = c11138371541051320789_NMS, SSRC = 989640135
+[7.591s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Starting remote video: Room JID = null@nowhere.com, Session ID = c11138371541051320789_NMS, SSRC = 989640135
+[7.684s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=call/elaneEAC3985E label=collections data=["hcbu",[[[null,null,"8731004034955484735"]
+,[null,null,null,null,[[14]
+,[["mfFx5eclm5TSo5_cDT8pAEEI","7BB241AE163219B4","2",2,[1]
+,null,[1,null,[]
+]
+]
+]
+,[]
+]
+]
+]
+]
+]
+
+[7.696s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Cannot get the video stream.
+[7.698s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Cannot get the video stream.
+[7.706s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Received stream request for DOWN stream from UI: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 1490x972, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135)
+[7.706s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A sending stream request: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 1490x972, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135) with streamId: 989640135
+[7.792s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A received modified remote stream: Stream(participantId=7BB241AE163219B4, mediaType=v, sourceId=2, streamId=989640135, muted=true, croppable=true, mediaStreamId=989640135, mediaStreamTrackId=989640135, ssrcs=989640135,3334063423, rids=null, ssrcGroups=SsrcGroup(semantics=FID, ssrcs=989640135,3334063423), adaptationFlags=0)
+[7.795s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=43] Cannot get the video stream.
+[7.796s]9 Warning(talk.media.webrtc.OutputTracker): recordBeforeVideoStop: No info found for ssrc 989640135
+[7.796s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=20] Cannot get the video stream.
+[7.796s]9 Warning(talk.media.webrtc.OutputTracker): recordBeforeVideoStop: No info found for ssrc 989640135
+[7.815s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Received stream request for DOWN stream from UI: StreamRequest(participantId: 7BB241AE163219B4, sourceId: 2, mediaType: v, resolution: 1490x972, frameRate: 30, adaptationReason: 0, send: true, ssrcs: 989640135,3334063423, streamId: 989640135)
+[7.828s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Registering sessionId=default-settings-session-id.
+[7.860s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=null)] Registering sessionId=default-settings-session-id.
+[7.870s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=60] Cannot get the video stream.
+[8.445s]9 Warning(realtime.media.session.SessionImpl): [localSessionId=c11138371541051320789_NMS] Session stopped receiving video!
+[9.671s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=7BB241AE163219B4 label=7BB241AE163219B4 data=ch:cm,CM3ozf4BEgRhYWFhGBUgAigB
+[10.769s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] sending session query
+[10.839s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] sending session query
+[10.879s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] session query returned version 1, have 1
+[10.879s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] scheduling session query
+[10.960s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] session query returned version 3, have 1
+[10.961s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Received modified remote description: {"sessionId":"MAJKCkLFX4It2gnJHRA","audio":{"type":"a","mediaId":"audio","bandwidthConstraints":"null","codecs":[{"Ao":"a","Pf":111,"Bo":"opus","Nm":0,"Ek":48000,"yj":2,"H":null,"G":{"minptime":"10","useinbandfec":"1"}},{"Ao":"a","Pf":0,"Bo":"PCMU","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","Do":1,"Eo":"a"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[6666,6667,6668],"loudestCsrc":42},"video":{"type":"v","mediaId":"video","bandwidthConstraints":"null","codecs":[{"Ao":"v","Pf":96,"Bo":"VP8","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{}},{"Ao":"v","Pf":97,"Bo":"rtx","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{"apt":"96"}}],"streams":[],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","Do":5,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-content-type","Do":7,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-timing","Do":8,"Eo":"v"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"data":{"type":"d","mediaId":"data","bandwidthConstraints":"null","codecs":[],"streams":[],"sctpSettings":{"port":5000,"name":"webrtc-datachannel","messagesize":null,"numstreams":256},"rtpHeaderExtensions":[],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"pushChannels":"DataChannelDescriptor(label=collections id=call/elaneEAC3985E, SSRC=971098475, format=1)","transport":{"version":"ICE","ufrag":"z8WzqdwUETx55I3x","pwd":"7+wDjS37wHStdVVL8DU0toJu","fingerprint":"sha-256 D5:F9:93:E6:C0:EE:B7:70:A0:03:F5:CD:17:59:F3:B0:29:1A:1B:FA:41:6C:76:AC:44:0A:59:C0:37:5A:FA:1C","dtlsRole":"active","candidates":"Candidate(component=1, priority=2130706431, type=LOCAL, protocol=UDP, ip=74.125.140.127, port=19305, foundation=2130706431, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706430, type=LOCAL, protocol=TCP, ip=74.125.140.127, port=19305, foundation=2130706430, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706429, type=LOCAL, protocol=SSLTCP, ip=74.125.140.127, port=443, foundation=2130706429, generation=0, network=, relatedIp=null, relatedPort=null)","mode":"lite"},"cryptos":[]}.
+[10.963s]8 realtime.media.api.webrtc.LocalSession: Session c11138371541051320789_NMS setting remote descriptions: {"sessionId":"MAJKCkLFX4It2gnJHRA","audio":{"type":"a","mediaId":"audio","bandwidthConstraints":"null","codecs":[{"Ao":"a","Pf":111,"Bo":"opus","Nm":0,"Ek":48000,"yj":2,"H":null,"G":{"minptime":"10","useinbandfec":"1","stereo":"0","usedtx":"1"}},{"Ao":"a","Pf":0,"Bo":"PCMU","Nm":0,"Ek":8000,"yj":1,"H":null,"G":{}}],"streams":[{"ca":"a","ea":"DF7D9F5ACFCCAA32","ga":"1","G":"950055423","da":false,"Z":true,"Qf":"950055423","$":"950055423","oa":[950055423],"H":null,"Y":[],"ha":0},{"ca":"a","ea":"7BB241AE163219B4","ga":"1","G":"1434437897","da":false,"Z":true,"Qf":"1434437897","$":"1434437897","oa":[1434437897],"H":null,"Y":[],"ha":0}],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","Do":1,"Eo":"a"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[6666,6667,6668],"loudestCsrc":42},"video":{"type":"v","mediaId":"video","bandwidthConstraints":"null","codecs":[{"Ao":"v","Pf":96,"Bo":"VP8","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{}},{"Ao":"v","Pf":97,"Bo":"rtx","Nm":0,"Ek":90000,"yj":1,"H":null,"G":{"apt":"96"}}],"streams":[{"ca":"v","ea":"7BB241AE163219B4","ga":"2","G":"989640135","da":false,"Z":false,"Qf":"989640135","$":"989640135","oa":[989640135,3334063423],"H":null,"Y":[{"G":"FID","H":[989640135,3334063423]}],"ha":0},{"ca":"v","ea":"DF7D9F5ACFCCAA32","ga":"2","G":"1866240046","da":false,"Z":true,"Qf":"1866240046","$":"1866240046","oa":[1866240046,3079636944],"H":null,"Y":[{"G":"FID","H":[1866240046,3079636944]}],"ha":0}],"sctpSettings":{},"rtpHeaderExtensions":[{"Ug":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","Do":5,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-content-type","Do":7,"Eo":"v"},{"Ug":"http://www.webrtc.org/experiments/rtp-hdrext/video-timing","Do":8,"Eo":"v"}],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"data":{"type":"d","mediaId":"data","bandwidthConstraints":"null","codecs":[],"streams":[{"ca":"d","ea":"7BB241AE163219B4","ga":"3","G":"1759873205","da":false,"Z":true,"Qf":"1759873205","$":"1759873205","oa":[1759873205],"H":null,"Y":[],"ha":0},{"ca":"d","ea":"call/elaneEAC3985E","ga":"collections","G":"971098475","da":false,"Z":true,"Qf":"collections","$":null,"aa":null,"oa":[971098475],"H":null,"Y":[],"ha":0}],"sctpSettings":{"port":5000,"name":"webrtc-datachannel","messagesize":null,"numstreams":256},"rtpHeaderExtensions":[],"defaultRequests":[],"send":true,"receive":true,"virtualSsrcs":[],"loudestCsrc":null},"pushChannels":"DataChannelDescriptor(label=collections id=call/elaneEAC3985E, SSRC=971098475, format=1)","transport":{"version":"ICE","ufrag":"z8WzqdwUETx55I3x","pwd":"7+wDjS37wHStdVVL8DU0toJu","fingerprint":"sha-256 D5:F9:93:E6:C0:EE:B7:70:A0:03:F5:CD:17:59:F3:B0:29:1A:1B:FA:41:6C:76:AC:44:0A:59:C0:37:5A:FA:1C","dtlsRole":"active","candidates":"Candidate(component=1, priority=2130706431, type=LOCAL, protocol=UDP, ip=74.125.140.127, port=19305, foundation=2130706431, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706430, type=LOCAL, protocol=TCP, ip=74.125.140.127, port=19305, foundation=2130706430, generation=0, network=, relatedIp=null, relatedPort=null),Candidate(component=1, priority=2130706429, type=LOCAL, protocol=SSLTCP, ip=74.125.140.127, port=443, foundation=2130706429, generation=0, network=, relatedIp=null, relatedPort=null)","mode":"lite"},"cryptos":[]}
+[10.964s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing negotiation.
+[10.964s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=3): Starting.
+[10.965s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] scheduling session query
+[10.968s]8 realtime.media.api.webrtc.PeerNegotiator: Altering remote description (answer).
+[10.973s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=null)] Unregistering sessionId=default-settings-session-id.
+[10.973s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Unregistering sessionId=default-settings-session-id.
+[10.973s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Stopping stream with id=e57b92e9-7fad-40bf-9bea-86a91863e669
+[10.974s]8 realtime.media.api.webrtc.PeerNegotiator: Adding 0 pending ICE candidates after setRemoteDescription.
+[10.974s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=3): Successfully completed.
+[14.546s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEgZhYWFhYWEYACAAKAE=
+[14.670s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=7BB241AE163219B4 label=7BB241AE163219B4 data=ch:cm,CM3ozf4BEgFhGBYgACgB
+[15.546s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEgZhYWFhYWEYACABKAE=
+[15.670s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=7BB241AE163219B4 label=7BB241AE163219B4 data=ch:cm,CM3ozf4BEgFhGBYgASgB
+[17.960s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEgpuYWRhYWFBPz8/GAEgACgA
+[18.959s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEgpuYWRhYWFBPz8/GAEgASgA
+[19.547s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEgZhYWFhYWEYACACKAE=
+[19.670s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=7BB241AE163219B4 label=7BB241AE163219B4 data=ch:cm,CM3ozf4BEgFhGBYgAigB
+[20.229s]8 realtime.media.api.webrtc.JmiStatsParser: Ignore report with stale timestamp 1554549641251 from Cand-XHN+P/k7 of localcandidate
+[20.230s]8 realtime.media.api.webrtc.JmiStatsParser: Ignore report with stale timestamp 1554549641251 from Cand-Nacfg3o7 of remotecandidate
+[20.880s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] sending session query
+[20.965s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] sending session query
+[20.995s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] session query returned version 1, have 1
+[20.996s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] scheduling session query
+[21.083s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] session query returned version 3, have 3
+[21.084s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] scheduling session query
+[22.959s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEgpuYWRhYWFBPz8/GAEgAigA
+[24.550s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEghhYWFhYWFhYRgCIAAoAQ==
+[24.670s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=7BB241AE163219B4 label=7BB241AE163219B4 data=ch:cm,CM3ozf4BEgVhYWFhYRgXIAAoAQ==
+[25.550s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEghhYWFhYWFhYRgCIAEoAQ==
+[25.671s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] dataReceived: participantId=7BB241AE163219B4 label=7BB241AE163219B4 data=ch:cm,CM3ozf4BEgVhYWFhYRgXIAEoAQ==
+[26.143s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEhx2b3kgYSBjYW1iaWFybWUgZGUgbmF2ZWdhZG9yGAMgACgA
+[27.140s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEhx2b3kgYSBjYW1iaWFybWUgZGUgbmF2ZWdhZG9yGAMgASgA
+[27.342s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEgZlc3BlcmEYBCAAKAA=
+[28.340s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] sendData: label=dataSendChannel, data=ch:cm,CN3xlpsCEgZlc3BlcmEYBCABKAA=
+[29.217s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=null)] Setting mute state to mute=true.
+[29.218s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=null)] Stopping.
+[29.219s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c16863869681456621090_P2P)] Removing capture=Capture(source=Source(id=2 type=v content=ca state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)
+[29.219s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c16863869681456621090_P2P)] StreamInfo=Stream(participantId=, mediaType=v, sourceId=2, streamId=c16863869681456621090_P2P/2, muted=true, croppable=true, mediaStreamId=null, mediaStreamTrackId=null, ssrcs=8579374,8579375, rids=null, ssrcGroups=SsrcGroup(semantics=FID, ssrcs=8579374,8579375), adaptationFlags=0) updated.
+[29.219s]8 realtime.media.api.webrtc.PeerNegotiator: Skipping negotiation since remote description has been set yet.
+[29.219s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)] Unregistering sessionId=c16863869681456621090_P2P.
+[29.219s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Removing capture=Capture(source=Source(id=2 type=v content=ca state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)
+[29.219s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] StreamInfo=Stream(participantId=, mediaType=v, sourceId=2, streamId=c11138371541051320789_NMS/2, muted=true, croppable=true, mediaStreamId=null, mediaStreamTrackId=null, ssrcs=2904261316,2356434190,2007914673,3855260242,3269598952,487583880, rids=null, ssrcGroups=SsrcGroup(semantics=SIM, ssrcs=2904261316,2356434190,2007914673),SsrcGroup(semantics=FID, ssrcs=2904261316,3855260242),SsrcGroup(semantics=FID, ssrcs=2356434190,3269598952),SsrcGroup(semantics=FID, ssrcs=2007914673,487583880), adaptationFlags=0) updated.
+[29.219s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing negotiation.
+[29.220s]8 realtime.media.api.webrtc.PeerNegotiator: Negotiation (id=4): Starting.
+[29.220s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=2 type=v content=ca state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)] Unregistering sessionId=c11138371541051320789_NMS.
+[29.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=false paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Setting mute state to mute=true.
+[29.222s]8 realtime.media.api.webrtc.Capture: Changing media mute for Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66), setting track.enabled=false
+[29.222s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=li participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Update source state from li to mu
+[29.223s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Stopping.
+[29.223s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Stopping stream with id=5df50ba8-408a-407f-8afa-9c8cfb2148f7
+[29.223s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Stopping stream with id=d72a9467-99f5-4fe7-ac36-52399d54fa66
+[29.223s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=d72a9467-99f5-4fe7-ac36-52399d54fa66)] Stream changed with new stream=null.
+[29.223s]8 realtime.media.api.webrtc.Capture: Disposing of volume monitor for Capture(source=Source(id=1 type=a content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=null)
+[29.223s]8 realtime.media.audio.AudioOutput: [AudioOutput(stream=d72a9467-99f5-4fe7-ac36-52399d54fa66, volume=1, elements.length=0)] Setting requested volume to 0.
+[29.223s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=null)] Stopping stream with id=vikVOfxlEik21F3MMIPcvf1u6LTlHiKDw2gL
+[29.224s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c16863869681456621090_P2P)] Removing capture=Capture(source=Source(id=1 type=a content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)
+[29.224s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c16863869681456621090_P2P)] StreamInfo=Stream(participantId=, mediaType=a, sourceId=1, streamId=c16863869681456621090_P2P/1, muted=true, croppable=true, mediaStreamId=null, mediaStreamTrackId=null, ssrcs=8579373, rids=null, ssrcGroups=, adaptationFlags=0) updated.
+[29.224s]8 realtime.media.api.webrtc.PeerNegotiator: Skipping negotiation since remote description has been set yet.
+[29.224s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)] Unregistering sessionId=c16863869681456621090_P2P.
+[29.224s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Removing capture=Capture(source=Source(id=1 type=a content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)
+[29.225s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] StreamInfo=Stream(participantId=, mediaType=a, sourceId=1, streamId=c11138371541051320789_NMS/1, muted=true, croppable=true, mediaStreamId=null, mediaStreamTrackId=null, ssrcs=950055423, rids=null, ssrcGroups=, adaptationFlags=0) updated.
+[29.225s]8 realtime.media.api.webrtc.PeerNegotiator: Queueing negotiation.
+[29.225s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=1 type=a content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)] Unregistering sessionId=c11138371541051320789_NMS.
+[29.225s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=DF7D9F5ACFCCAA32) muted=false paused=false deviceState=re stream=null)] Setting mute state to mute=true.
+[29.225s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=li participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=null)] Update source state from li to mu
+[29.225s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=re stream=null)] Stopping.
+[29.225s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c16863869681456621090_P2P)] Removing capture=Capture(source=Source(id=3 type=d content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)
+[29.225s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)] Unregistering sessionId=c16863869681456621090_P2P.
+[29.225s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] Removing capture=Capture(source=Source(id=3 type=d content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)
+[29.225s]8 realtime.media.api.webrtc.Capture: [Capture(source=Source(id=3 type=d content=un state=mu participantId=DF7D9F5ACFCCAA32) muted=true paused=false deviceState=st stream=null)] Unregistering sessionId=c11138371541051320789_NMS.
+[29.226s]8 realtime.media.session.SessionManager: Stopping video call because stop called with endCause: 63
+[29.226s]8 realtime.media.session.SessionManager: SessionManager changed state from INPROGRESS to STOPPED
+[29.226s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Stopping because stop called with endCause: 63 and
+     debug information: undefined
+[29.226s]8 realtime.media.api.webrtc.PeerNegotiator: Cancelling 1 pending negotiation(s).
+[29.236s]8 realtime.media.api.webrtc.LoggingManager: Stopping logging for sessionId=c11138371541051320789_NMS
+[29.237s]8 realtime.media.api.webrtc.LoggingManager: Uploading logs for c11138371541051320789_NMS
+[29.237s]8 realtime.media.api.webrtc.LoggingManager: Stopping native WebRTC logging.
+[29.237s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A stopping because stop was called with endCause: 63
+[29.237s]8 realtime.media.session.MediaSessionSyncer: [MAJKCk{#12}A] stopping session sync
+[29.237s]8 realtime.media.api.apiary.RemoteSession: Session MAJKCk{#12}A state changed from INPROGRESS to STOPPED
+[29.237s]8 realtime.media.session.SessionImpl: [localSessionId=c11138371541051320789_NMS] Changed state from INPROGRESS to STOPPED
+[29.238s]8 realtime.media.session.SessionImpl: [localSessionId=c16863869681456621090_P2P] Stopping because stop called with endCause: 63 and
+     debug information: undefined
+[29.238s]8 realtime.media.api.webrtc.PeerNegotiator: Cancelling 0 pending negotiation(s).
+[29.239s]8 realtime.media.api.webrtc.LoggingManager: Skipping stopLogging call for sessionId=c16863869681456621090_P2P as logging is not active for this session.
+[29.239s]8 realtime.media.api.apiary.RemoteSession: Session IAEwAk{#15}g stopping because stop was called with endCause: 63
+[29.239s]8 realtime.media.session.MediaSessionSyncer: [IAEwAk{#15}g] stopping session sync
+[29.239s]8 realtime.media.api.apiary.RemoteSession: Session IAEwAk{#15}g state changed from INITIAL to STOPPED
+[29.239s]8 realtime.media.session.SessionImpl: [localSessionId=c16863869681456621090_P2P] Changed state from INITIAL to STOPPED
+[29.244s]8 realtime.media.api.webrtc.LoggingManager: ################# Save #################
+[29.248s]8 talk.media.webrtc.Extension: Sending message {"method":"logging.stopAndUpload"}
+[29.249s]8 realtime.media.stats.BandwidthLatencyReporter: [[],[[25,1554549643914],[28,1554549644325]],[]]
+[29.252s]9 Warning(realtime.media.api.webrtc.PeerController): [PeerController(sessionId=c11138371541051320789_NMS)] Negotiating with updated local streams failed with error=cancel: Negotiations cancelled due to cancel() call.
+[29.260s]8 realtime.media.api.webrtc.ParticipantVideoComponent: [Uid=42] Cannot get the video stream.
+[29.265s]9 Warning(talk.media.webrtc.OutputTracker): recordBeforeVideoStop: No info found for ssrc 989640135
+[29.267s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] send datachannel is closed.
+[29.267s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] receive datachannel collections is closed.
+[29.267s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c11138371541051320789_NMS)] receive datachannel 7BB241AE163219B4 is closed.
+[29.267s]8 realtime.media.api.webrtc.PeerController: [PeerController(sessionId=c16863869681456621090_P2P)] send datachannel is closed.
+[29.273s]10 JS log upload for c11138371541051320789_NMS failed: Error: Bb``0`
+[29.275s]9 Warning(boq.hangoutsexpresslaneui.model.CallModel): Error : Bb``0`
+Browser: Error: Bb``0`
+    at _.Mn.<anonymous> (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/ck=boq-rtc.elUi.FvxRBOiPDYU.L.W.O/am=PyP_Lf9cCw/rt=j/d=1/exm=_b,_tp,wmwg8b/excm=callview,_b,_tp/ed=1/rs=AL5CKSGuExNxbJXyRyb0_2Nk1XghrUuBtQ/m=Gvzp9c,HNb6ld,L1AAkb,PGW6ue,Ryzncf,U1Dmlf,VCC3b,W4sDqc,XAzchc,aW3pY,dodICd,fgj8Rb,he,hl,hypmaf,ma,qXS2T,u6ds5,us99re,wI7Sfc,ws9Tlc:1163:56)
+    at _.Mn._.fk.Vl (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:250:436)
+    at _.Mn._.fk.ma (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:249:338)
+    at Sn (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:337:343)
+    at Un (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:339:236)
+    at _.Mn.wa (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:338:401)
+    at _.Mn.c [as wa] (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:321:244)
+    at _.Mn.Ca (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:338:365)
+;
+                      Context: Error
+    at Object._.Rm (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:318:207)
+    at iI (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/ck=boq-rtc.elUi.FvxRBOiPDYU.L.W.O/am=PyP_Lf9cCw/rt=j/d=1/exm=_b,_tp,wmwg8b/excm=callview,_b,_tp/ed=1/rs=AL5CKSGuExNxbJXyRyb0_2Nk1XghrUuBtQ/m=Gvzp9c,HNb6ld,L1AAkb,PGW6ue,Ryzncf,U1Dmlf,VCC3b,W4sDqc,XAzchc,aW3pY,dodICd,fgj8Rb,he,hl,hypmaf,ma,qXS2T,u6ds5,us99re,wI7Sfc,ws9Tlc:1161:122)
+    at _.Mn.<anonymous> (https://hangouts.google.com/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/ck=boq-rtc.elUi.FvxRBOiPDYU.L.W.O/am=PyP_Lf9cCw/rt=j/d=1/exm=_b,_tp,wmwg8b/excm=callview,_b,_tp/ed=1/rs=AL5CKSGuExNxbJXyRyb0_2Nk1XghrUuBtQ/m=Gvzp9c,HNb6ld,L1AAkb,PGW6ue,Ryzncf,U1Dmlf,VCC3b,W4sDqc,XAzchc,aW3pY,dodICd,fgj8Rb,he,hl,hypmaf,ma,qXS2T,u6ds5,us99re,wI7Sfc,ws9Tlc:1163:103)
+    at _.Mn._.fk.Vl (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:250:436)
+    at _.Mn._.fk.ma (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:249:338)
+    at Sn (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:337:343)
+    at Un (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:339:236)
+    at _.Mn.wa (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:338:401)
+    at _.Mn.c [as wa] (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:321:244)
+    at _.Mn.Ca (/_/scs/social-static/_/js/k=boq-rtc.elUi.es.GGutvEjU_es.O/am=PyP_Lf9cCw/rt=j/d=1/excm=callview,_b,_tp/ed=1/dg=0/rs=AL5CKSFJImOUfi3tlhcTMdZkhYB4v_UkaQ/m=_b,_tp:338:365)

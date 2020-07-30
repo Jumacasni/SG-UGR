@@ -1,4 +1,4 @@
-# Técnicas de los Sistemas Inteligentes
+# Sistemas Gráficos
 
 ### Juan Manuel Castillo Nievas
 
